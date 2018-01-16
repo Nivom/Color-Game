@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(37, 37, 37);
+}
+
+#color-header {
+    height: 250px;
+    background-color: rgb(44, 135, 255);
+    text-align: center;
+}
+
+#game-menu {
+    height: 50px;
+    background-color: white;
+}
+
+p {
+    color: white;
+    font-size: 50px;
+}
+
+#color-text {
+    font-size: 50px;
+    color: white;
+}
+
+.menu-col {
+    text-align: center;
+    display: inline-block;
+    font-size: 35px;
+    margin-left: 500px;
+    cursor: pointer;
+    color: rgb(44, 135, 255);;
+}
+
+.challenge-col:hover, #new-colors:hover {
+    background-color: rgb(44, 135, 255);
+    color: white;
+}
+
+.challenge-col {
+    display: inline-block;
+}
+
+.game-container {
+    margin: auto;
+    margin-top: 30px;
+    width: 825px;
+}
+
+.color {
+    display: inline-block;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+
+.h-color {
+    background-color: rgb(37, 37, 37) !important;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    #color-header {
+        height: 125px;
+    }
+    
+    
+    p {
+        font-size: 25px;
+    }
+    
+    #color-text {
+        font-size: 25px;
+    }
+    
+    .menu-col {
+        font-size: 17px;
+        margin-left: 250px;
+    }
+    
+
+    .game-container {
+        margin-top: 15px;
+        width: 500px;
+    }
+    
+    .color {
+        width: 125px;
+        height: 125px;
+        margin: 5px;
+    }
+}
